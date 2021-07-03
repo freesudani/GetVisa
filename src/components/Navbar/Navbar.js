@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../../globalStyles";
+import ImgIcon from "../../images/e8bb41c752d944adbcddb6f6a7e4c2a3.png";
 import {
   Nav,
   NavbarContainer,
@@ -20,6 +21,7 @@ const Navbar = () => {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -40,9 +42,8 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/">
-              <NavIcon />
-              GetVisa
+            <NavLogo to="/" onClick={closeMobileMenu}>
+              <NavIcon src={ImgIcon} />
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
