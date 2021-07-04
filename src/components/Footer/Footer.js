@@ -47,37 +47,37 @@ function Footer() {
           <FooterLinksItems>
             <FooterLinkTitle>About Us</FooterLinkTitle>
             <FooterLink to="/sign-up">How it Works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
+            <FooterLink to="/">Our Mission</FooterLink>
+            <FooterLink to="/">Our Story</FooterLink>
+            <FooterLink to="/">Our History</FooterLink>
             <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Consultants</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
           </FooterLinksItems>
 
           <FooterLinksItems>
             <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it Works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Consultants</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLink to="/sign-up">Customer Support</FooterLink>
+            <FooterLink to="/">Portsmouth, NH</FooterLink>
+            <FooterLink to="/">Dublin</FooterLink>
+            <FooterLink to="/">Singapore</FooterLink>
+            <FooterLink to="/">Sydney</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinksItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it Works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Consultants</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLinkTitle>Partners</FooterLinkTitle>
+            <FooterLink to="/sign-up">All Partner</FooterLink>
+            <FooterLink to="/">Solution Partner</FooterLink>
+            <FooterLink to="/">Affiliate</FooterLink>
+            <FooterLink to="/">App Partner</FooterLink>
+            <FooterLink to="/">HubSpot for SU</FooterLink>
           </FooterLinksItems>
           <FooterLinksItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to="/sign-up">How it Works</FooterLink>
-            <FooterLink to="/">Testimonials</FooterLink>
-            <FooterLink to="/">Careers</FooterLink>
-            <FooterLink to="/">Consultants</FooterLink>
-            <FooterLink to="/">Terms of Service</FooterLink>
+            <FooterLinkTitle>Destinations</FooterLinkTitle>
+            <FooterLink to="/sign-up">United States</FooterLink>
+            <FooterLink to="/">Canada</FooterLink>
+            <FooterLink to="/">United Kingdom</FooterLink>
+            <FooterLink to="/">Australia</FooterLink>
+            <FooterLink to="/">New Zealand</FooterLink>
           </FooterLinksItems>
         </FooterLinksWrapper>
       </FooterLinksContainer>
@@ -86,7 +86,7 @@ function Footer() {
           <SocialLogo to="/">
             <NavIcon src={ImgIcon} />
           </SocialLogo>
-          <WebsiteRights>ULTRA 2020</WebsiteRights>
+          <WebsiteRights>All right reserved to GetVisa 2021</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
               <FaFacebook />
